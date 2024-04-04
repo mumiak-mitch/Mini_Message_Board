@@ -20,7 +20,7 @@ To run the Mini_Message_Board locally, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/mumiak-mitch/Mini_Message_Board.git
     ```
 
 2. Navigate to the project directory:
