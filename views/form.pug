@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+  body
+    h1= title
+    form(method="POST" action="/new")
+      label(for="messageUser") User:
+      input(type="text" name="messageUser" id="messageUser")
+      br
+      label(for="messageText") Message:
+      input(type="text" name="messageText" id="messageText")
+      br
+      input(type="submit" value="Submit")
